@@ -9,7 +9,7 @@ public class Part5 {
                     Thread t0=Thread.currentThread();
                     System.out.println(Thread.currentThread().getName()+" : "+i);
                     try {
-                        Thread.sleep(15000); // thread 0 sleeped
+                        Thread.sleep(5000); // thread 0 sleeped
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
