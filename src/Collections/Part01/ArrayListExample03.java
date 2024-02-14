@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
-
+//add package name
 public class ArrayListExample {
     public static void main(String[] args) {
         // Creating an ArrayList
