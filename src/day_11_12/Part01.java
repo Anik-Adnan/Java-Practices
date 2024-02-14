@@ -15,6 +15,7 @@ package day_11_12;
  */
 public class Part01 {
     public static void main(String[] args) {
+        // have a another package for exceptio handling named "ExceptionHandling"
         try{
             System.out.println(1/0);
             System.out.println("print 1/0");
