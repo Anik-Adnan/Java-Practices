@@ -1,7 +1,9 @@
+package Collections.Part01;
+
 import java.util.ArrayList;
 import java.util.Collections;
 //add package name
-public class ArrayListExample {
+public class ArrayListExample03 {
     public static void main(String[] args) {
         // Creating an ArrayList
         ArrayList<String> fruits = new ArrayList<>();
