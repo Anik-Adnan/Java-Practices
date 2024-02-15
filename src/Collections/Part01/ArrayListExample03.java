@@ -48,8 +48,13 @@ public class ArrayListExample03 {
         Collections.sort(fruits);
         System.out.println("Sorted ArrayList: " + fruits);
 
+        //capacity trim to size
+        fruits.trimToSize();
+        System.out.println("capacity trimed with size : "+fruits.size());
+
         // Clearing the ArrayList
         fruits.clear();
         System.out.println("Cleared ArrayList: " + fruits);
+
     }
 }
