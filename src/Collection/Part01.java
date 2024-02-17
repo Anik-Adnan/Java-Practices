@@ -1,4 +1,4 @@
-package Collections.Part01;
+package Collection;
 
 public class Part01 {
     public static void main(String[] args) {
