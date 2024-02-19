@@ -2,7 +2,7 @@ package CollectionFramework;
 
 import java.util.HashSet;
 
-public class HashSetExample {
+public class HashSetExample01 {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<>();
         set.add("Red");
