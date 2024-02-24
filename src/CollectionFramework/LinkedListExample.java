@@ -19,6 +19,8 @@ public class LinkedListExample {
         list.add(300);
         list.add(250);
         list.add(200);
+        list.add(500);
+        list.add(200);
         list.addLast(500);
 
         System.out.println("LinkedList: " + list);
@@ -35,7 +37,7 @@ public class LinkedListExample {
         System.out.println(list.get(1)+" "+list.getFirst()+" "+list.getLast()); // 1 100 500
         System.out.println("remove first : "+list.remove()+" remove first: "+list.removeFirst()+" remove last: "+list.removeLast());
         System.out.println(list.remove(new Integer(500))); //true flase
-        System.out.println(list.removeLastOccurrence(new Integer(200)));
+        System.out.println(list.removeLastOccurrence(new Integer(250)));
         System.out.println(list);
         System.out.println(list.removeAll(Arrays.asList(1,2,3,4,200)));
         System.out.println(list);

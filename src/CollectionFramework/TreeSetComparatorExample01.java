@@ -36,6 +36,7 @@ public class TreeSetComparatorExample01 {
 
         // Creating a TreeSet of Person objects with custom Comparator
         TreeSet<Persons> treeSet = new TreeSet<>(nameComparator);
+//        TreeSet<Persons> treeSet =new TreeSet<>(); // errror
 
         // Adding elements to the TreeSet
         treeSet.add(new Persons("Alice", 30));

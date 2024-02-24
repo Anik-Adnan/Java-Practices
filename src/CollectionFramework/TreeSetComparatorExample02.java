@@ -39,7 +39,7 @@ public class TreeSetComparatorExample02 {
         Comparator<Students> comperator = new Comparator<Students>() {
             @Override
             public int compare(Students s1, Students s2) {
-                return Integer.compare(s1.getId(), s2.getId());
+                return Integer.compare( s2.getId(),s1.getId());
             }
         };
 
@@ -56,6 +56,8 @@ public class TreeSetComparatorExample02 {
         // Displaying the elements of the TreeSet (sorted by id)
         System.out.println("TreeSet (sorted by id): " + treeSet);
         System.out.println(treeSet.comparator() == comperator); //same object 'true'
+
+
     }
 }
 
